@@ -4,12 +4,12 @@ import { getAuth } from "firebase/auth";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA6JdLM4kgfuoXgILscA5xsY7GqJad-o",
+  apiKey: "AIzaSyAp6JdJdMM4kgfuoX9lLCsA5xsY7GqJad-o",
   authDomain: "upscale-developers.firebaseapp.com",
   projectId: "upscale-developers",
-  storageBucket: "upscale-developers.appspot.com",
-  messagingSenderId: "882608545848",
-  appId: "1:882608545848:web:7ed223a1790b477205e0cd"
+  storageBucket: "upscale-developers.firebasestorage.app",
+  messagingSenderId: "88260545848",
+  appId: "1:88260545848:web:7ed223a1790b477205e0cd"
 };
 
 const app = initializeApp(firebaseConfig);
